@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    h1, h2, h3, h4, h5, h6 {
+        @apply font-bold;
+    }
+}
+
+@layer components {
+    .card-stats {
+        @apply bg-light-grayish-blue rounded-lg px-4 py-6 w-full grid grid-cols-[min-content_max-content]
+        grid-rows-[min-content_max-content] justify-between items-center gap-y-4;
+    }
+}
