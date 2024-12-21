@@ -1,0 +1,15 @@
+# Node Modules
+node_modules
+
+# Editor files
+.vscode/
+.idea/
+
+# Build directories
+dist/
+build/
+
+# Lockfiles
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
